@@ -1,0 +1,26 @@
+{
+  "name": "heroku-simple",
+  "version": "1.0.0",
+  "description": "simple heroku test",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gsidam01/heroku-simple.git"
+  },
+  "keywords": [
+    "simple heroku"
+  ],
+  "author": "George SE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gsidam01/heroku-simple/issues"
+  },
+  "homepage": "https://github.com/gsidam01/heroku-simple#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+  }
+}
