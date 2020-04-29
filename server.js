@@ -3,12 +3,12 @@ const my_express = express();
 
 var port = process.env.PORT || 8000;
 
-my_express.use(express.static(__dirname + "/public"));
+my_express.use(express.static(__dirname));
 
-app.get("/", function(req,res) {
+my_express.get("/", function(req,res) {
 	res.render("index");
 });
 
-app.listen(port, function() {
+my_express.listen(port, function() {
 	console.log("app running");
 });
